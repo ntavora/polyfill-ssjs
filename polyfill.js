@@ -34,6 +34,16 @@
     }
     return arr[0]
   }
+
+  Array.prototype.findIndex = function(callbackFn) {
+    var arr = [];
+    for (var i = 0; i < this.length; i++) {
+      if(callbackFn(this[i], i, this)){
+          arr.push(i);  
+      }
+    }
+    return arr[0] || -1;
+  }
   if (!String.prototype.startsWith) {
     String.prototype.startsWith = function (searchString, position) {
       position = position || 0

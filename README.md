@@ -15,6 +15,8 @@ This polifill add support for
 - Array.filter
 - Array.map 
 - Array.find
+- Array.findIndex
+
 ### String
 
 - String.startsWith
