@@ -14,6 +14,7 @@ This polifill add support for
 - Array.foreach
 - Array.filter
 - Array.map 
+- Array.find
 ### String
 
 - String.startsWith
